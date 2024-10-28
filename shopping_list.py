@@ -20,4 +20,6 @@ while True:
             else:
                 print("La liste est vide.")
             print("---------------------------------")
-        
+        case "4":
+            shopping_list.clear()
+            print("La liste a été vidée.\n---------------------------------")

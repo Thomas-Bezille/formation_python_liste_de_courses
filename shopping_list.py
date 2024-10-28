@@ -8,4 +8,8 @@ while True:
             item = input("Quel article souhaitez-vous ajouter à la liste ? ")
             shopping_list.append(item)
             print(f"{item} a été ajouté à la liste.\n---------------------------------")
+        case "2":
+            item = input("Quel article souhaitez-vous supprimer de la liste ? ")
+            shopping_list.remove(item)
+            print(f"{item} a été supprimé de la liste.\n---------------------------------")
         

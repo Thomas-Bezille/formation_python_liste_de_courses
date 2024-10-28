@@ -1,3 +1,5 @@
+import sys
+
 shopping_list = []
 
 while True:
@@ -25,6 +27,6 @@ while True:
             print("La liste a été vidée.\n---------------------------------")
         case "5":
             print("Au revoir !")
-            break
+            sys.exit()
         case _:
             print("Choix invalide. Veuillez taper un nombre qui correspond à un choix (1 - 5).\n---------------------------------")

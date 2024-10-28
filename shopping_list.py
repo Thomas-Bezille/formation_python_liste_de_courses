@@ -12,4 +12,12 @@ while True:
             item = input("Quel article souhaitez-vous supprimer de la liste ? ")
             shopping_list.remove(item)
             print(f"{item} a été supprimé de la liste.\n---------------------------------")
+        case "3":
+            if shopping_list:
+                print("Voici votre liste de courses :")
+                for index, item in enumerate(shopping_list):
+                    print(f"{index + 1}: {item}")
+            else:
+                print("La liste est vide.")
+            print("---------------------------------")
         

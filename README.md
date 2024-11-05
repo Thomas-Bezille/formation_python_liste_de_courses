@@ -11,3 +11,7 @@ Dans la première version de ce projet, vous allez devoir créer un prgramme qui
 - Voir la liste
 - Vider la liste
 - Quitter le programme
+
+### VERSION 2 - Sauvegarde de la liste de courses
+
+Dans la deuxième version de ce projet, vous allez devoir développer une fonctionnalité permettant de sauvegarder la liste de courses dans un fichier JSON.

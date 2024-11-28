@@ -1,5 +1,10 @@
-from dataclasses import dataclass
 import logging
+import json
+import os
+
+from dataclasses import dataclass
+
+from constants import DATA_DIR
 
 
 LOGGER = logging.getLogger()
@@ -29,3 +34,13 @@ class Liste(list):
         print(f"Ma liste de {self.nom} :")
         for element in self:
             print(f" - {element}")
+
+    def sauvegarder(self):
+        chemin = os.path.join(DATA_DIR, f"{self.nom}.json")
+        if not os.path.exists(DATA_DIR):
+            os.makedirs(DATA_DIR)
+        
+        with open(chemin, "w") as f:
+            json.dump(self, f, indent=4)
+        
+        return True

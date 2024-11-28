@@ -24,3 +24,8 @@ class Liste(list):
             self.remove(element)
             return True
         return False
+    
+    def afficher(self):
+        print(f"Ma liste de {self.nom} :")
+        for element in self:
+            print(f" - {element}")

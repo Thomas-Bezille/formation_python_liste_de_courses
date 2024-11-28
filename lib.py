@@ -18,3 +18,9 @@ class Liste(list):
             
             self.append(element)
             return True
+
+    def enlever(self, element):
+        if element in self:
+            self.remove(element)
+            return True
+        return False

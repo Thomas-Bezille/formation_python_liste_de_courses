@@ -15,3 +15,7 @@ Dans la première version de ce projet, vous allez devoir créer un prgramme qui
 ### VERSION 2 - Sauvegarde de la liste de courses
 
 Dans la deuxième version de ce projet, vous allez devoir développer une fonctionnalité permettant de sauvegarder la liste de courses dans un fichier JSON.
+
+### VERSION 3 - Refactoring en utilisant la POO
+
+Dans la troisième version de ce projet, nous allons refactoriser la liste de course en utilisant les concepts de programmation orientée objet.
